@@ -1,4 +1,6 @@
-### Hi there 👋
+### Hi there I'm Vikas Gutte 👋
+![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=VikasGutte)
+
 ![Vikas's GitHub stats](https://github-readme-stats.vercel.app/api?username=VikasGutte&show_icons=true&theme=radical)
 <!--
 **VikasGutte/VikasGutte** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
