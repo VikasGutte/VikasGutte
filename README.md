@@ -113,13 +113,6 @@ DevOps & Tools   → CI/CD · GitHub Actions · Testing · Git · Docker · Dock
 
 <!-- ACTIVITY:END -->
 
-<div align="center">
-
-<img alt="GitHub stats" height="165" src="https://github-readme-stats.vercel.app/api?username=VikasGutte&show_icons=true&hide_border=true&theme=transparent&include_all_commits=true&count_private=true" />
-<img alt="Top languages" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VikasGutte&layout=compact&hide_border=true&theme=transparent&langs_count=8" />
-
-</div>
-
 ---
 
 ## ⭐ Featured work

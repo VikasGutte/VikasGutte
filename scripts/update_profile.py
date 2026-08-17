@@ -67,10 +67,25 @@ TOP_BARS = 10
 # Skills scoring below this (0-100 scale) are dropped as noise.
 MIN_SCORE = 6
 
-# GitHub reports these as "languages"; they are config noise, not skills.
+# GitHub reports these as "languages"; they are config, markup or diagram noise,
+# not skills. Mermaid in particular shows up from diagrams in documentation.
 EXCLUDED_LANGUAGES = {
     "Makefile", "Batchfile", "CMake", "Roff", "M4", "Dockerfile",
     "Procfile", "EJS", "Gherkin", "Nix", "Starlark",
+    "Mermaid", "TeX", "Rich Text Format", "Handlebars", "Pug", "Blade",
+}
+
+# Skills that are true but say nothing about you on a profile.
+SUPPRESSED_SKILLS = {"Git"}
+
+# Pairs that are the same evidence counted twice. The key is folded into the
+# value, taking the higher score rather than summing.
+ABSORB = {
+    "Docker Compose": "Docker",
+    "CI/CD": "GitHub Actions",
+    "E2E Testing": "Testing",
+    "Dependency Injection": "Dagger/Hilt",
+    "Jetpack": "Android",
 }
 
 API = "https://api.github.com"
@@ -466,7 +481,8 @@ def recency_weight(pushed_at: str | None) -> float:
     return max(MIN_WEIGHT, 0.5 ** (age / HALF_LIFE_DAYS))
 
 
-def select_repos() -> list[dict]:
+def select_repos() -> tuple[list[dict], int]:
+    """Returns (repos worth analysing, total repos the token can see)."""
     repos = api_paginated(
         "/user/repos",
         {
@@ -486,7 +502,7 @@ def select_repos() -> list[dict]:
         if recency_weight(repo.get("pushed_at")) <= 0:
             continue
         selected.append(repo)
-    return selected
+    return selected, len(repos)
 
 
 def repo_tree(repo: dict) -> list[str]:
@@ -545,14 +561,15 @@ def detect_from_content(text: str) -> set[str]:
 
 
 def analyze() -> tuple[dict[str, float], dict[str, float], dict]:
-    repos = select_repos()
-    log(f"Analyzing {len(repos)} repositories...")
+    repos, total_visible = select_repos()
+    log(f"Analyzing {len(repos)} of {total_visible} visible repositories...")
 
     language_score: dict[str, float] = defaultdict(float)
     technology_score: dict[str, float] = defaultdict(float)
 
     stats = {
         "repositories_analyzed": len(repos),
+        "repositories_visible": total_visible,
         "public": sum(1 for r in repos if not r.get("private")),
         "private": sum(1 for r in repos if r.get("private")),
         "active_last_90_days": 0,
@@ -596,10 +613,29 @@ def analyze() -> tuple[dict[str, float], dict[str, float], dict]:
         for tech in content_techs:
             technology_score[tech] += 1.6 * weight
 
-        if entries:
-            technology_score["Git"] += 0.3 * weight
+    languages = normalize(collapse(language_score))
+    technologies = normalize(collapse(technology_score))
 
-    return normalize(language_score), normalize(technology_score), stats
+    # A language detected again through a manifest ("typescript" in
+    # package.json) is the same skill, not a second one. Keep it in the
+    # Languages row only.
+    technologies = {
+        name: score for name, score in technologies.items() if name not in languages
+    }
+
+    return languages, technologies, stats
+
+
+def collapse(scores: dict[str, float]) -> dict[str, float]:
+    """Drop filler skills and fold duplicate pairs into one entry."""
+    merged: dict[str, float] = {}
+    for name, value in scores.items():
+        if name in SUPPRESSED_SKILLS:
+            continue
+        target = ABSORB.get(name, name)
+        # Same evidence seen twice - take the stronger reading, don't add them.
+        merged[target] = max(merged.get(target, 0.0), value)
+    return merged
 
 
 def normalize(scores: dict[str, float]) -> dict[str, float]:
@@ -696,10 +732,10 @@ def update_readme(languages, technologies, stats) -> None:
 
     now = datetime.now(timezone.utc).strftime("%d %b %Y")
     activity = (
-        f"| Repositories analysed | Active in last 90 days | Skills detected |\n"
+        f"| Active repositories | Pushed in last 90 days | Skills detected |\n"
         f"| :---: | :---: | :---: |\n"
-        f"| {stats['repositories_analyzed']} | {stats['active_last_90_days']} | "
-        f"{len(combined)} |\n\n"
+        f"| {stats['repositories_analyzed']} of {stats['repositories_visible']} | "
+        f"{stats['active_last_90_days']} | {len(combined)} |\n\n"
         f"<sub>Derived from language statistics, dependency manifests and push "
         f"recency across my public and private repositories. Private repository "
         f"names, descriptions and source are never published — only the "
