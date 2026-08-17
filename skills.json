@@ -1,39 +1,34 @@
 {
-  "generated_at": "2026-08-17T19:41:50+00:00",
+  "generated_at": "2026-08-17T19:49:25+00:00",
   "stats": {
     "repositories_analyzed": 9,
+    "repositories_visible": 36,
     "public": 4,
     "private": 5,
     "active_last_90_days": 4
   },
   "languages": {
-    "TypeScript": 100.0,
-    "JavaScript": 70.4,
-    "Python": 55.8,
-    "Mermaid": 45.9,
-    "HTML": 19.3,
-    "Java": 12.5
+    "Python": 100.0,
+    "TypeScript": 88.7,
+    "JavaScript": 62.4,
+    "HTML": 17.1,
+    "Java": 11.1
   },
   "technologies": {
-    "TypeScript": 100.0,
-    "CI/CD": 82.8,
     "GitHub Actions": 82.8,
     "React": 80.0,
     "Testing": 61.5,
     "Tailwind CSS": 60.5,
-    "REST APIs": 58.9,
     "Node.js": 58.9,
+    "REST APIs": 58.9,
     "React Native": 50.4,
     "Next.js": 49.6,
-    "Git": 35.4,
-    "PostgreSQL": 31.0,
     "Expo": 31.0,
+    "PostgreSQL": 31.0,
     "SQLAlchemy": 30.5,
     "Express": 27.9,
     "Docker": 19.1,
-    "Docker Compose": 19.1,
     "Kubernetes": 19.1,
-    "Python": 19.1,
     "MongoDB": 18.4,
     "WebSockets": 18.4
   }
