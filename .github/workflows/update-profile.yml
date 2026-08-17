@@ -1,0 +1,53 @@
+name: Update profile skills
+
+on:
+  schedule:
+    # Every Monday at 03:00 UTC
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/update_profile.py"
+      - ".github/workflows/update-profile.yml"
+
+# Only what the job needs: write README.md back to this repository.
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # The analyzer uses only the standard library, so there is nothing to install.
+
+      - name: Analyze repositories
+        env:
+          # Fine-grained PAT with read access to the repos you want analyzed.
+          # Falls back to the built-in token, which can only see this repository.
+          PROFILE_GITHUB_TOKEN: ${{ secrets.PROFILE_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          # Never enable on a public repository: Actions logs are public and
+          # debug output includes private repository names.
+          PROFILE_DEBUG: "0"
+        run: python3 scripts/update_profile.py
+
+      - name: Commit updated profile
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md skills.json
+          git diff --cached --quiet && echo "No changes." && exit 0
+          git commit -m "chore: refresh profile skills"
+          git push
