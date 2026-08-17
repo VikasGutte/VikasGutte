@@ -32,9 +32,10 @@ other people skip: automation, tooling and making the boring things run themselv
 
 ## 🧠 Skills
 
-> Generated automatically from my actual development activity — language
-> statistics, dependency manifests and push recency across every repository I
-> work in. Not a wish list.
+> The first two rows are generated automatically from my actual development
+> activity — language statistics, dependency manifests and how recently I pushed.
+> Scored by evidence, not by wish list. The last row is work that doesn't live on
+> this account.
 
 <!-- SKILLS:START -->
 

@@ -78,6 +78,14 @@ EXCLUDED_LANGUAGES = {
 # Skills that are true but say nothing about you on a profile.
 SUPPRESSED_SKILLS = {"Git"}
 
+# Skills you assert yourself, for work the analyzer genuinely cannot reach:
+# client repos behind an org that hasn't approved the token, closed-source work,
+# or projects older than MAX_AGE_DAYS. Rendered in their own row and labelled as
+# self-declared - never mixed into the derived scores, because the whole point
+# of the derived scores is that they are evidence.
+# Anything here that the analyzer detects on its own is dropped from this row.
+DECLARED_SKILLS = ("Android", "Kotlin", "Java", "UI/UX Design")
+
 # Pairs that are the same evidence counted twice. The key is folded into the
 # value, taking the higher score rather than summing.
 ABSORB = {
@@ -382,6 +390,8 @@ BADGES: dict[str, tuple[str, str, str]] = {
     "Dagger/Hilt":      ("2C4AA8", "dagger", "white"),
     "Dependency Injection": ("2C4AA8", "dagger", "white"),
     "Stripe":           ("635BFF", "stripe", "white"),
+    "UI/UX Design":     ("F24E1E", "figma", "white"),
+    "Figma":            ("F24E1E", "figma", "white"),
 }
 
 
@@ -716,6 +726,18 @@ def update_readme(languages, technologies, stats) -> None:
         + render_badges(top_technologies)
         + "\n</p>"
     )
+
+    # Only declare what the analyzer did not already prove on its own.
+    derived = set(top_languages) | set(top_technologies)
+    declared = [name for name in DECLARED_SKILLS if name not in derived]
+    if declared:
+        skills += (
+            "\n\n**Also working with** "
+            "<sub>— not everything I build is on GitHub</sub>\n\n<p>\n"
+            + render_badges(declared)
+            + "\n</p>"
+        )
+
     readme = replace_block(readme, "SKILLS", skills)
 
     combined = {**languages, **technologies}
@@ -737,9 +759,10 @@ def update_readme(languages, technologies, stats) -> None:
         f"| {stats['repositories_analyzed']} of {stats['repositories_visible']} | "
         f"{stats['active_last_90_days']} | {len(combined)} |\n\n"
         f"<sub>Derived from language statistics, dependency manifests and push "
-        f"recency across my public and private repositories. Private repository "
-        f"names, descriptions and source are never published — only the "
-        f"aggregated skills above. Last analysed **{now}**.</sub>"
+        f"recency across the public and private repositories this analyzer can "
+        f"reach — client work under other organisations isn't counted. Private "
+        f"repository names, descriptions and source are never published, only "
+        f"the aggregated skills above. Last analysed **{now}**.</sub>"
     )
     readme = replace_block(readme, "ACTIVITY", activity)
 
