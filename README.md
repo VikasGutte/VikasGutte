@@ -41,20 +41,31 @@ other people skip: automation, tooling and making the boring things run themselv
 **Languages**
 
 <p>
-<img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-<img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img alt="Mermaid" src="https://img.shields.io/badge/Mermaid-555555?style=for-the-badge" />
+<img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
 </p>
 
 **Frameworks, tools & platforms**
 
 <p>
-<img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img alt="CI/CD" src="https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+<img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
 <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img alt="Testing" src="https://img.shields.io/badge/Testing-C21325?style=for-the-badge&logo=jest&logoColor=white" />
+<img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img alt="REST APIs" src="https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
 <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-<img alt="Firebase" src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-<img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img alt="React Native" src="https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+<img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img alt="Expo" src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
+<img alt="SQLAlchemy" src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" />
 </p>
 
 <!-- SKILLS:END -->
@@ -66,7 +77,24 @@ other people skip: automation, tooling and making the boring things run themselv
 <!-- STACK:START -->
 
 ```text
-Run the analyzer to populate this section.
+TypeScript      ████████████████████  100.0
+CI/CD           █████████████████░░░   82.8
+GitHub Actions  █████████████████░░░   82.8
+React           ████████████████░░░░   80.0
+JavaScript      ██████████████░░░░░░   70.4
+Testing         ████████████░░░░░░░░   61.5
+Tailwind CSS    ████████████░░░░░░░░   60.5
+REST APIs       ████████████░░░░░░░░   58.9
+Node.js         ████████████░░░░░░░░   58.9
+React Native    ██████████░░░░░░░░░░   50.4
+```
+
+```text
+Mobile           → React Native · Expo
+Frontend         → TypeScript · React · JavaScript · Tailwind CSS · Next.js · HTML
+Backend          → REST APIs · Node.js · Express · Python · WebSockets · Java
+Data             → PostgreSQL · SQLAlchemy · MongoDB
+DevOps & Tools   → CI/CD · GitHub Actions · Testing · Git · Docker · Docker Compose · Kubernetes
 ```
 
 <!-- STACK:END -->
@@ -77,7 +105,11 @@ Run the analyzer to populate this section.
 
 <!-- ACTIVITY:START -->
 
-Run the analyzer to populate this section.
+| Repositories analysed | Active in last 90 days | Skills detected |
+| :---: | :---: | :---: |
+| 9 | 4 | 25 |
+
+<sub>Derived from language statistics, dependency manifests and push recency across my public and private repositories. Private repository names, descriptions and source are never published — only the aggregated skills above. Last analysed **17 Aug 2026**.</sub>
 
 <!-- ACTIVITY:END -->
 
