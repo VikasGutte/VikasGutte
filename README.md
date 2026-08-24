@@ -86,15 +86,15 @@ other people skip: automation, tooling and making the boring things run themselv
 
 ```text
 Python          ████████████████████  100.0
-TypeScript      ██████████████████░░   88.5
-GitHub Actions  █████████████████░░░   82.8
-React           ████████████████░░░░   80.0
-JavaScript      ████████████░░░░░░░░   62.2
+TypeScript      ██████████████████░░   89.5
+GitHub Actions  █████████████████░░░   82.9
+React           ████████████████░░░░   79.9
+JavaScript      ████████████░░░░░░░░   62.1
 Testing         ████████████░░░░░░░░   61.5
-Tailwind CSS    ████████████░░░░░░░░   60.5
+Tailwind CSS    ████████████░░░░░░░░   60.3
 REST APIs       ████████████░░░░░░░░   58.9
 Node.js         ████████████░░░░░░░░   58.9
-React Native    ██████████░░░░░░░░░░   50.4
+React Native    ██████████░░░░░░░░░░   50.6
 ```
 
 ```text
@@ -117,7 +117,7 @@ DevOps & Tools   → GitHub Actions · Testing · Kubernetes · Docker
 | :---: | :---: | :---: |
 | 9 of 36 | 4 | 21 |
 
-<sub>Derived from language statistics, dependency manifests and push recency across the public and private repositories this analyzer can reach — client work under other organisations isn't counted. Private repository names, descriptions and source are never published, only the aggregated skills above. Last analysed **17 Aug 2026**.</sub>
+<sub>Derived from language statistics, dependency manifests and push recency across the public and private repositories this analyzer can reach — client work under other organisations isn't counted. Private repository names, descriptions and source are never published, only the aggregated skills above. Last analysed **24 Aug 2026**.</sub>
 
 <!-- ACTIVITY:END -->
 

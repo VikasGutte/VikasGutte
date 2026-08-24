@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T19:52:59+00:00",
+  "generated_at": "2026-08-24T03:56:57+00:00",
   "stats": {
     "repositories_analyzed": 9,
     "repositories_visible": 36,
@@ -9,27 +9,27 @@
   },
   "languages": {
     "Python": 100.0,
-    "TypeScript": 88.5,
-    "JavaScript": 62.2,
-    "HTML": 17.1,
+    "TypeScript": 89.5,
+    "JavaScript": 62.1,
+    "HTML": 12.9,
     "Java": 11.1
   },
   "technologies": {
-    "GitHub Actions": 82.8,
-    "React": 80.0,
+    "GitHub Actions": 82.9,
+    "React": 79.9,
     "Testing": 61.5,
-    "Tailwind CSS": 60.5,
+    "Tailwind CSS": 60.3,
     "REST APIs": 58.9,
     "Node.js": 58.9,
-    "React Native": 50.4,
-    "Next.js": 49.6,
-    "Expo": 31.0,
-    "PostgreSQL": 31.0,
-    "SQLAlchemy": 30.5,
-    "Express": 27.9,
-    "Kubernetes": 19.1,
-    "Docker": 19.1,
-    "MongoDB": 18.4,
-    "WebSockets": 18.4
+    "React Native": 50.6,
+    "Next.js": 49.4,
+    "Expo": 31.1,
+    "PostgreSQL": 31.1,
+    "SQLAlchemy": 30.4,
+    "Express": 27.8,
+    "Kubernetes": 19.0,
+    "Docker": 19.0,
+    "WebSockets": 18.4,
+    "MongoDB": 18.4
   }
 }
