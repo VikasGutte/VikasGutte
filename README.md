@@ -60,12 +60,12 @@ other people skip: automation, tooling and making the boring things run themselv
 <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 <img alt="React Native" src="https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
 <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-<img alt="Expo" src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
 <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img alt="Expo" src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
 <img alt="SQLAlchemy" src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" />
 <img alt="Express" src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
-<img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
 <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
 </p>
 
 **Also working with** <sub>— not everything I build is on GitHub</sub>
@@ -86,15 +86,15 @@ other people skip: automation, tooling and making the boring things run themselv
 
 ```text
 Python          ████████████████████  100.0
-TypeScript      ██████████████████░░   89.5
-GitHub Actions  █████████████████░░░   82.9
+TypeScript      ██████████████████░░   89.7
+GitHub Actions  █████████████████░░░   83.0
 React           ████████████████░░░░   79.9
-JavaScript      ████████████░░░░░░░░   62.1
+JavaScript      ████████████░░░░░░░░   61.9
 Testing         ████████████░░░░░░░░   61.5
-Tailwind CSS    ████████████░░░░░░░░   60.3
+Tailwind CSS    ████████████░░░░░░░░   60.1
 REST APIs       ████████████░░░░░░░░   58.9
 Node.js         ████████████░░░░░░░░   58.9
-React Native    ██████████░░░░░░░░░░   50.6
+React Native    ██████████░░░░░░░░░░   50.7
 ```
 
 ```text
@@ -102,7 +102,7 @@ Mobile           → React Native · Expo
 Frontend         → TypeScript · React · JavaScript · Tailwind CSS · Next.js · HTML
 Backend          → Python · REST APIs · Node.js · Express · WebSockets · Java
 Data             → PostgreSQL · SQLAlchemy · MongoDB
-DevOps & Tools   → GitHub Actions · Testing · Kubernetes · Docker
+DevOps & Tools   → GitHub Actions · Testing · Docker · Kubernetes
 ```
 
 <!-- STACK:END -->
@@ -117,7 +117,7 @@ DevOps & Tools   → GitHub Actions · Testing · Kubernetes · Docker
 | :---: | :---: | :---: |
 | 9 of 36 | 4 | 21 |
 
-<sub>Derived from language statistics, dependency manifests and push recency across the public and private repositories this analyzer can reach — client work under other organisations isn't counted. Private repository names, descriptions and source are never published, only the aggregated skills above. Last analysed **24 Aug 2026**.</sub>
+<sub>Derived from language statistics, dependency manifests and push recency across the public and private repositories this analyzer can reach — client work under other organisations isn't counted. Private repository names, descriptions and source are never published, only the aggregated skills above. Last analysed **31 Aug 2026**.</sub>
 
 <!-- ACTIVITY:END -->
 
