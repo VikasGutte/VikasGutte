@@ -60,12 +60,12 @@ other people skip: automation, tooling and making the boring things run themselv
 <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
 <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
 <img alt="SQLAlchemy" src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" />
-<img alt="REST APIs" src="https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
 <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<img alt="REST APIs" src="https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
 <img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
 <img alt="React Native" src="https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-<img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
 <img alt="Gradle" src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" />
+<img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
 <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
 
@@ -86,21 +86,21 @@ other people skip: automation, tooling and making the boring things run themselv
 
 ```text
 Python          ████████████████████  100.0
-GitHub Actions  ████████████████░░░░   81.0
-React           ███████████████░░░░░   73.5
-Next.js         █████████████░░░░░░░   66.3
-TypeScript      █████████████░░░░░░░   64.6
+GitHub Actions  ████████████████░░░░   81.3
+React           ███████████████░░░░░   73.4
+Next.js         █████████████░░░░░░░   66.4
+TypeScript      █████████████░░░░░░░   65.1
 Testing         ████████████░░░░░░░░   61.5
 Tailwind CSS    ████████████░░░░░░░░   60.2
 PostgreSQL      ████████░░░░░░░░░░░░   41.8
 SQLAlchemy      ████████░░░░░░░░░░░░   40.8
-REST APIs       ████████░░░░░░░░░░░░   38.7
+Node.js         ████████░░░░░░░░░░░░   38.7
 ```
 
 ```text
 Mobile           → Flutter · React Native · Dart · Android · Kotlin · Expo · CocoaPods · iOS
 Frontend         → React · Next.js · TypeScript · Tailwind CSS · JavaScript · HTML
-Backend          → Python · REST APIs · Node.js · Express · WebSockets · Java
+Backend          → Python · Node.js · REST APIs · Express · WebSockets · Java
 Data             → PostgreSQL · SQLAlchemy · Data Analysis · Supabase · Firebase · MongoDB
 DevOps & Tools   → GitHub Actions · Testing · Gradle · Docker · Kubernetes
 ```
@@ -117,7 +117,7 @@ DevOps & Tools   → GitHub Actions · Testing · Gradle · Docker · Kubernetes
 | :---: | :---: | :---: |
 | 11 of 38 | 6 | 31 |
 
-<sub>Derived from language statistics, dependency manifests and push recency across the public and private repositories this analyzer can reach — client work under other organisations isn't counted. Private repository names, descriptions and source are never published, only the aggregated skills above. Last analysed **28 Sep 2026**.</sub>
+<sub>Derived from language statistics, dependency manifests and push recency across the public and private repositories this analyzer can reach — client work under other organisations isn't counted. Private repository names, descriptions and source are never published, only the aggregated skills above. Last analysed **05 Oct 2026**.</sub>
 
 <!-- ACTIVITY:END -->
 
