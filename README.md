@@ -46,7 +46,9 @@ other people skip: automation, tooling and making the boring things run themselv
 <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 <img alt="Dart" src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+<img alt="Wolfram Language" src="https://img.shields.io/badge/Wolfram%20Language-555555?style=for-the-badge" />
 <img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img alt="C#" src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" />
 <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
 </p>
 
@@ -64,8 +66,8 @@ other people skip: automation, tooling and making the boring things run themselv
 <img alt="REST APIs" src="https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
 <img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
 <img alt="React Native" src="https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-<img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
 <img alt="Gradle" src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" />
+<img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
 <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
 
@@ -86,19 +88,19 @@ other people skip: automation, tooling and making the boring things run themselv
 
 ```text
 Python          ████████████████████  100.0
-GitHub Actions  ████████████████░░░░   80.8
-React           ███████████████░░░░░   73.3
-TypeScript      ██████████████░░░░░░   68.4
-Next.js         █████████████░░░░░░░   65.9
+GitHub Actions  ████████████████░░░░   80.9
+React           ███████████████░░░░░   73.2
+TypeScript      ██████████████░░░░░░   68.8
+Next.js         █████████████░░░░░░░   66.0
 Testing         ████████████░░░░░░░░   61.5
 Tailwind CSS    ████████████░░░░░░░░   59.6
-PostgreSQL      ████████░░░░░░░░░░░░   42.1
+PostgreSQL      ████████░░░░░░░░░░░░   42.2
 SQLAlchemy      ████████░░░░░░░░░░░░   40.6
-Node.js         ████████░░░░░░░░░░░░   38.7
+Node.js         ████████░░░░░░░░░░░░   38.6
 ```
 
 ```text
-Mobile           → Flutter · React Native · Dart · Android · Kotlin · Expo · iOS · CocoaPods
+Mobile           → Flutter · React Native · Dart · Android · Kotlin · Expo · CocoaPods · iOS
 Frontend         → React · TypeScript · Next.js · Tailwind CSS · JavaScript · HTML
 Backend          → Python · Node.js · REST APIs · Express · WebSockets · Java
 Data             → PostgreSQL · SQLAlchemy · Data Analysis · Supabase · Firebase · MongoDB
@@ -115,9 +117,9 @@ DevOps & Tools   → GitHub Actions · Testing · Gradle · Docker · Kubernetes
 
 | Active repositories | Pushed in last 90 days | Skills detected |
 | :---: | :---: | :---: |
-| 11 of 38 | 6 | 31 |
+| 12 of 40 | 7 | 33 |
 
-<sub>Derived from language statistics, dependency manifests and push recency across the public and private repositories this analyzer can reach — client work under other organisations isn't counted. Private repository names, descriptions and source are never published, only the aggregated skills above. Last analysed **12 Oct 2026**.</sub>
+<sub>Derived from language statistics, dependency manifests and push recency across the public and private repositories this analyzer can reach — client work under other organisations isn't counted. Private repository names, descriptions and source are never published, only the aggregated skills above. Last analysed **19 Oct 2026**.</sub>
 
 <!-- ACTIVITY:END -->
 
