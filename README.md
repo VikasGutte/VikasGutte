@@ -66,8 +66,8 @@ other people skip: automation, tooling and making the boring things run themselv
 <img alt="REST APIs" src="https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
 <img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
 <img alt="React Native" src="https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-<img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
 <img alt="Gradle" src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" />
+<img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
 <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
 
@@ -88,19 +88,19 @@ other people skip: automation, tooling and making the boring things run themselv
 
 ```text
 Python          ████████████████████  100.0
-GitHub Actions  ███████████████████░   94.4
+GitHub Actions  ███████████████████░   94.6
 React           ███████████████░░░░░   73.2
-TypeScript      ██████████████░░░░░░   68.6
+TypeScript      █████████████░░░░░░░   66.6
 Next.js         █████████████░░░░░░░   66.0
 Testing         ████████████░░░░░░░░   61.5
 Tailwind CSS    ████████████░░░░░░░░   59.6
-C#              ██████████░░░░░░░░░░   50.4
+C#              ██████████░░░░░░░░░░   50.2
 PostgreSQL      ████████░░░░░░░░░░░░   42.2
 SQLAlchemy      ████████░░░░░░░░░░░░   40.6
 ```
 
 ```text
-Mobile           → Flutter · React Native · Dart · Android · Kotlin · Expo · iOS · CocoaPods
+Mobile           → Flutter · React Native · Dart · Android · Kotlin · Expo · CocoaPods · iOS
 Frontend         → React · TypeScript · Next.js · Tailwind CSS · JavaScript · HTML
 Backend          → Python · Node.js · REST APIs · Express · WebSockets · Java
 Data             → PostgreSQL · SQLAlchemy · Data Analysis · Supabase · Firebase · MongoDB
@@ -119,7 +119,7 @@ DevOps & Tools   → GitHub Actions · Testing · Gradle · Docker · Kubernetes
 | :---: | :---: | :---: |
 | 13 of 40 | 8 | 33 |
 
-<sub>Derived from language statistics, dependency manifests and push recency across the public and private repositories this analyzer can reach — client work under other organisations isn't counted. Private repository names, descriptions and source are never published, only the aggregated skills above. Last analysed **26 Oct 2026**.</sub>
+<sub>Derived from language statistics, dependency manifests and push recency across the public and private repositories this analyzer can reach — client work under other organisations isn't counted. Private repository names, descriptions and source are never published, only the aggregated skills above. Last analysed **02 Nov 2026**.</sub>
 
 <!-- ACTIVITY:END -->
 
