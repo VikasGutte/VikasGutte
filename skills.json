@@ -1,47 +1,47 @@
 {
-  "generated_at": "2026-11-02T10:42:29+00:00",
+  "generated_at": "2026-11-09T11:05:39+00:00",
   "stats": {
-    "repositories_analyzed": 13,
-    "repositories_visible": 40,
+    "repositories_analyzed": 15,
+    "repositories_visible": 42,
     "public": 4,
-    "private": 9,
-    "active_last_90_days": 8
+    "private": 11,
+    "active_last_90_days": 9
   },
   "languages": {
     "Python": 100.0,
-    "TypeScript": 66.6,
-    "C#": 50.2,
-    "JavaScript": 36.7,
-    "Dart": 28.6,
-    "Wolfram Language": 22.2,
-    "HTML": 14.1,
-    "Java": 6.5
+    "TypeScript": 44.7,
+    "JavaScript": 36.4,
+    "C#": 33.9,
+    "Dart": 19.2,
+    "Wolfram Language": 14.9,
+    "HTML": 9.5
   },
   "technologies": {
-    "GitHub Actions": 94.6,
+    "GitHub Actions": 94.8,
     "React": 73.2,
     "Next.js": 66.0,
     "Testing": 61.5,
+    "REST APIs": 60.4,
     "Tailwind CSS": 59.6,
     "PostgreSQL": 42.2,
     "SQLAlchemy": 40.6,
     "Node.js": 38.6,
-    "REST APIs": 38.6,
     "Flutter": 34.4,
     "React Native": 34.0,
     "Gradle": 26.3,
     "Android": 26.3,
     "Docker": 25.4,
+    "FastAPI": 21.8,
     "Data Analysis": 21.2,
     "Kotlin": 21.2,
     "Expo": 20.9,
     "Express": 17.7,
     "CocoaPods": 13.2,
-    "iOS": 13.2,
     "Supabase": 13.2,
+    "iOS": 13.2,
     "Firebase": 13.1,
     "Kubernetes": 12.1,
-    "WebSockets": 11.7,
-    "MongoDB": 11.7
+    "MongoDB": 11.7,
+    "WebSockets": 11.7
   }
 }
