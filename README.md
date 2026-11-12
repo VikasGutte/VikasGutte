@@ -42,39 +42,39 @@ other people skip: automation, tooling and making the boring things run themselv
 **Languages**
 
 <p>
+<img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 <img alt="C#" src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" />
 <img alt="Dart" src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-<img alt="Wolfram Language" src="https://img.shields.io/badge/Wolfram%20Language-555555?style=for-the-badge" />
-<img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 </p>
 
 **Frameworks, tools & platforms**
 
 <p>
-<img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-<img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-<img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
 <img alt="Testing" src="https://img.shields.io/badge/Testing-C21325?style=for-the-badge&logo=jest&logoColor=white" />
+<img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+<img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
 <img alt="REST APIs" src="https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
 <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+<img alt="Gradle" src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" />
+<img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<img alt="Data Analysis" src="https://img.shields.io/badge/Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white" />
 <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
 <img alt="SQLAlchemy" src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" />
-<img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-<img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-<img alt="React Native" src="https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-<img alt="Gradle" src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" />
-<img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-<img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img alt="Express" src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
 </p>
 
 **Also working with** <sub>— not everything I build is on GitHub</sub>
 
 <p>
 <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-<img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
 <img alt="UI/UX Design" src="https://img.shields.io/badge/UI/UX%20Design-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
 </p>
 
@@ -87,24 +87,24 @@ other people skip: automation, tooling and making the boring things run themselv
 <!-- STACK:START -->
 
 ```text
-Python          ████████████████████  100.0
-GitHub Actions  ███████████████████░   94.8
-React           ███████████████░░░░░   73.2
-Next.js         █████████████░░░░░░░   66.0
-Testing         ████████████░░░░░░░░   61.5
-REST APIs       ████████████░░░░░░░░   60.4
-Tailwind CSS    ████████████░░░░░░░░   59.6
-TypeScript      █████████░░░░░░░░░░░   44.7
-PostgreSQL      ████████░░░░░░░░░░░░   42.2
-SQLAlchemy      ████████░░░░░░░░░░░░   40.6
+CSS             ████████████████████  100.0
+Testing         ████████████████████  100.0
+Android         █████████████████░░░   85.4
+GitHub Actions  █████████████████░░░   83.3
+REST APIs       █████████████████░░░   83.3
+React           █████████████░░░░░░░   66.7
+HTML            █████████████░░░░░░░   64.6
+Tailwind CSS    ████████████░░░░░░░░   60.4
+Next.js         ███████████░░░░░░░░░   54.2
+Gradle          ██████████░░░░░░░░░░   52.1
 ```
 
 ```text
-Mobile           → Flutter · React Native · Android · Kotlin · Expo · Dart · CocoaPods · iOS
-Frontend         → React · Next.js · Tailwind CSS · TypeScript · JavaScript · HTML
-Backend          → Python · REST APIs · Node.js · FastAPI · Express · WebSockets
-Data             → PostgreSQL · SQLAlchemy · Data Analysis · Supabase · Firebase · MongoDB
-DevOps & Tools   → GitHub Actions · Testing · Gradle · Docker · Kubernetes
+Mobile           → Android · Flutter · React Native · Kotlin · Expo · CocoaPods · iOS · Dart
+Frontend         → CSS · React · HTML · Tailwind CSS · Next.js · JavaScript · TypeScript
+Backend          → REST APIs · Node.js · Python · FastAPI · Express · Java · WebSockets
+Data             → Data Analysis · PostgreSQL · SQLAlchemy · MongoDB · Supabase · Firebase
+DevOps & Tools   → Testing · GitHub Actions · Gradle · Docker · Kubernetes · Vercel
 ```
 
 <!-- STACK:END -->
@@ -117,9 +117,9 @@ DevOps & Tools   → GitHub Actions · Testing · Gradle · Docker · Kubernetes
 
 | Active repositories | Pushed in last 90 days | Skills detected |
 | :---: | :---: | :---: |
-| 15 of 42 | 9 | 33 |
+| 41 of 42 | 41 | 36 |
 
-<sub>Derived from language statistics, dependency manifests and push recency across the public and private repositories this analyzer can reach — client work under other organisations isn't counted. Private repository names, descriptions and source are never published, only the aggregated skills above. Last analysed **09 Nov 2026**.</sub>
+<sub>Derived from language statistics, dependency manifests and push recency across the public and private repositories this analyzer can reach — client work under other organisations isn't counted. Private repository names, descriptions and source are never published, only the aggregated skills above. Last analysed **12 Nov 2026**.</sub>
 
 <!-- ACTIVITY:END -->
 
