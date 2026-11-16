@@ -64,10 +64,10 @@ other people skip: automation, tooling and making the boring things run themselv
 <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
 <img alt="Gradle" src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" />
 <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-<img alt="Data Analysis" src="https://img.shields.io/badge/Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img alt="SQLAlchemy" src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" />
 <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img alt="Data Analysis" src="https://img.shields.io/badge/Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+<img alt="SQLAlchemy" src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" />
 <img alt="Express" src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
 </p>
 
@@ -89,9 +89,9 @@ other people skip: automation, tooling and making the boring things run themselv
 ```text
 CSS             ████████████████████  100.0
 Testing         ████████████████████  100.0
-Android         █████████████████░░░   85.4
-GitHub Actions  █████████████████░░░   83.3
-REST APIs       █████████████████░░░   83.3
+Android         █████████████████░░░   85.5
+GitHub Actions  █████████████████░░░   83.4
+REST APIs       █████████████████░░░   83.4
 React           █████████████░░░░░░░   66.7
 HTML            █████████████░░░░░░░   64.6
 Tailwind CSS    ████████████░░░░░░░░   60.4
@@ -103,7 +103,7 @@ Gradle          ██████████░░░░░░░░░░   5
 Mobile           → Android · Flutter · React Native · Kotlin · Expo · CocoaPods · iOS · Dart
 Frontend         → CSS · React · HTML · Tailwind CSS · Next.js · JavaScript · TypeScript
 Backend          → REST APIs · Node.js · Python · FastAPI · Express · Java · WebSockets
-Data             → Data Analysis · PostgreSQL · SQLAlchemy · MongoDB · Supabase · Firebase
+Data             → PostgreSQL · Data Analysis · SQLAlchemy · MongoDB · Supabase · Firebase
 DevOps & Tools   → Testing · GitHub Actions · Gradle · Docker · Kubernetes · Vercel
 ```
 
@@ -119,7 +119,7 @@ DevOps & Tools   → Testing · GitHub Actions · Gradle · Docker · Kubernetes
 | :---: | :---: | :---: |
 | 41 of 42 | 41 | 36 |
 
-<sub>Derived from language statistics, dependency manifests and push recency across the public and private repositories this analyzer can reach — client work under other organisations isn't counted. Private repository names, descriptions and source are never published, only the aggregated skills above. Last analysed **12 Nov 2026**.</sub>
+<sub>Derived from language statistics, dependency manifests and push recency across the public and private repositories this analyzer can reach — client work under other organisations isn't counted. Private repository names, descriptions and source are never published, only the aggregated skills above. Last analysed **16 Nov 2026**.</sub>
 
 <!-- ACTIVITY:END -->
 
